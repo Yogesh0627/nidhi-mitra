@@ -1,0 +1,26 @@
+[
+  {
+    "id": "testi-001",
+    "name": "Ritika Sharma",
+    "relation": "Parent of Class 4 Student",
+    "message": "Ms. Nidhi is an excellent teacher who truly cares about her students. My daughter has grown so much under her guidance!",
+    "rating": 5,
+    "date": "2023-12-15"
+  },
+  {
+    "id": "testi-002",
+    "name": "Aman Verma",
+    "relation": "Student, Class 5",
+    "message": "Mam makes learning fun with activities and stories. I really enjoy her classes!",
+    "rating": 4,
+    "date": "2024-02-10"
+  },
+  {
+    "id": "testi-003",
+    "name": "Pooja Mehra",
+    "relation": "Parent of Class 3 Student",
+    "message": "Her teaching style is very effective. She is patient and professional. Highly recommended!",
+    "rating": 5,
+    "date": "2024-03-28"
+  }
+]

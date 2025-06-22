@@ -1,0 +1,38 @@
+[
+  {
+    "id": "int-001",
+    "label": "Reading books"
+  },
+  {
+    "id": "int-002",
+    "label": "Listening to music"
+  },
+  {
+    "id": "int-003",
+    "label": "Art & Crafts"
+  },
+  {
+    "id": "int-004",
+    "label": "Dancing"
+  },
+  {
+    "id": "int-005",
+    "label": "Cooking"
+  },
+  {
+    "id": "int-006",
+    "label": "Traveling"
+  },
+  {
+    "id": "int-007",
+    "label": "Outdoor Sports"
+  },
+  {
+    "id": "int-008",
+    "label": "Indoor Games"
+  },
+  {
+    "id": "int-009",
+    "label": "Learning New Things And Concepts"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "exp-001",
+    "title": "Internship as a Teacher (Primary and Upper Primary)",
+    "organization": "Sarvodaya Kanya Vidyalaya, Moti Nagar",
+    "duration": "Sep 2022 - Feb 2023",
+    "responsibilities": [
+      {
+        "id": "resp-001",
+        "label": "Prepared lesson plans with activities"
+      },
+      {
+        "id": "resp-002",
+        "label": "Evaluated and gave feedback to students"
+      },
+      {
+        "id": "resp-003",
+        "label": "Maintained attendance records"
+      },
+      {
+        "id": "resp-004",
+        "label": "Ensured safe and respectful classroom environment"
+      },
+      {
+        "id": "resp-005",
+        "label": "Managed student behavior per school guidelines"
+      },
+      {
+        "id": "resp-006",
+        "label": "Measured and reported academic progress"
+      }
+    ]
+  },
+  {
+    "id": "exp-002",
+    "title": "Volunteer (Art Instruction)",
+    "organization": "MCD School, Razapur (Vidyanjali)",
+    "duration": "Aug 2022",
+    "responsibilities": [
+      {
+        "id": "resp-007",
+        "label": "Prepared and arranged art materials"
+      },
+      {
+        "id": "resp-008",
+        "label": "Taught drawing and painting techniques"
+      },
+      {
+        "id": "resp-009",
+        "label": "Instructed in watercolors, oils, pencils, pens, etc."
+      }
+    ]
+  },
+  {
+    "id": "exp-003",
+    "title": "Internship as a Teacher (Primary)",
+    "organization": "Bal Bharti Public School",
+    "duration": "Feb 2022",
+    "responsibilities": [
+      {
+        "id": "resp-010",
+        "label": "Online teaching"
+      },
+      {
+        "id": "resp-011",
+        "label": "Created lesson plans with activities and PPTs"
+      },
+      {
+        "id": "resp-012",
+        "label": "Classroom management"
+      },
+      {
+        "id": "resp-013",
+        "label": "Maintained attendance records"
+      }
+    ]
+  },
+  {
+    "id": "exp-004",
+    "title": "Internship as a Teacher (Primary)",
+    "organization": "MCD School, Punjabi Bagh",
+    "duration": "Jan 2020",
+    "responsibilities": [
+      {
+        "id": "resp-014",
+        "label": "Prepared lesson plans with activities"
+      },
+      {
+        "id": "resp-015",
+        "label": "Classroom management"
+      },
+      {
+        "id": "resp-016",
+        "label": "Maintained attendance records"
+      }
+    ]
+  }
+]
