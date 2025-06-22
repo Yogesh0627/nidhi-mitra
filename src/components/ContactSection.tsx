@@ -1,57 +1,57 @@
-import React from 'react';
+import React from "react";
 import {
   Phone,
   Mail,
   MessageCircle,
   Twitter,
   Linkedin,
-} from 'lucide-react';
+} from "lucide-react";
 
 const contacts = [
   {
-    id: 'contact-1',
+    id: "contact-1",
     icon: <Phone className="text-black w-5 h-5" />,
-    label: 'Call Me At:',
-    value: '999-888-7777',
+    label: "Call Me At:",
+    value: "999-888-7777",
   },
   {
-    id: 'contact-2',
+    id: "contact-2",
     icon: <Mail className="text-black w-5 h-5" />,
-    label: 'Email At:',
-    value: 'nidhi.mitra@example.com',
+    label: "Email At:",
+    value: "nidhi.mitra@example.com",
   },
   {
-    id: 'contact-3',
+    id: "contact-3",
     icon: <MessageCircle className="text-black w-5 h-5" />,
-    label: 'WeChat:',
-    value: '@nidhim',
+    label: "WeChat:",
+    value: "@nidhim",
   },
   {
-    id: 'contact-4',
+    id: "contact-4",
     icon: <Twitter className="text-black w-5 h-5" />,
-    label: 'Twitter:',
-    value: '@nidhiM_official',
+    label: "Twitter:",
+    value: "@nidhiM_official",
   },
   {
-    id: 'contact-5',
+    id: "contact-5",
     icon: <Linkedin className="text-black w-5 h-5" />,
-    label: 'LinkedIn:',
-    value: 'linkedin.com/in/nidhimitra',
+    label: "LinkedIn:",
+    value: "linkedin.com/in/nidhimitra",
   },
 ];
 
 const ContactPromptSection = () => {
   return (
-    <section className="bg-[#0f1115] text-white py-20 px-4">
+    <section className="bg-[#0f1115] text-white py-16 px-6 md:px-10 lg:px-20">
       <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-3">
-      Let&apos;s Connect & Collaborate!
-    </h2>
-    <p className="text-gray-300 text-base md:text-lg mb-10">
-      Whether you&apos;re a parent, fellow educator, or simply curious — feel free to reach out. I&apos;d love to hear from you!
-    </p>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+          Let&apos;s Connect & Collaborate!
+        </h2>
+        <p className="text-gray-300 text-sm sm:text-base md:text-lg mb-10 max-w-2xl mx-auto">
+          Whether you&apos;re a parent, fellow educator, or simply curious — feel free to reach out. I&apos;d love to hear from you!
+        </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-center items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {contacts.map((item) => (
             <div
               key={item.id}
@@ -61,7 +61,9 @@ const ContactPromptSection = () => {
                 {item.icon}
               </div>
               <p className="text-sm text-gray-300">{item.label}</p>
-              <p className="text-white font-medium text-base">{item.value}</p>
+              <p className="text-white font-medium text-sm sm:text-base break-words text-center">
+                {item.value}
+              </p>
             </div>
           ))}
         </div>

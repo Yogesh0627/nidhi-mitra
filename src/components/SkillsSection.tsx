@@ -2,9 +2,9 @@ import React from "react";
 
 const SkillsSection = () => {
   const linearSkills = [
-    { name: "Lesson Planning", level: 95, color: "#06b6d4" }, // cyan
-    { name: "Bilingual Teaching", level: 90, color: "#f97316" }, // orange
-    { name: "Modern Teaching Tools", level: 85, color: "#e879f9" }, // pink
+    { name: "Lesson Planning", level: 95, color: "#06b6d4" },
+    { name: "Bilingual Teaching", level: 90, color: "#f97316" },
+    { name: "Modern Teaching Tools", level: 85, color: "#e879f9" },
   ];
 
   const circularSkills = [
@@ -15,19 +15,19 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section className="bg-[#0f1115] text-white py-20 px-20">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-10">
+    <section className="bg-[#0f1115] text-white py-20 px-6 md:px-20">
+      <div className="container mx-auto">
+        <div className="flex flex-col md:flex-row gap-10">
           {/* LEFT: Text Section */}
-          <div className="md:w-1/2 space-y-6">
-            <div className="flex items-center gap-2 text-white text-sm uppercase">
+          <div className="w-full md:w-1/2 space-y-6">
+            <div className="flex items-center gap-2 text-sm uppercase">
               <span className="w-10 h-[2px] bg-white" />
-              <span className="text-yellow-400 text-base">•</span> Expertise
+              <span className="text-yellow-400">•</span> Expertise
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-green-500">
               My Skills & Tools
             </h2>
-            <p className="text-white text-lg font-semibold">
+            <p className="text-lg font-semibold">
               Every Day is a New Challenge
             </p>
             <p className="text-gray-400 text-sm">
@@ -39,8 +39,8 @@ const SkillsSection = () => {
             </button>
           </div>
 
-          {/* RIGHT: Skills */}
-          <div className="md:w-1/2 space-y-10">
+          {/* RIGHT: Skills Section */}
+          <div className="w-full md:w-1/2 space-y-10">
             {/* Linear Skills */}
             <div className="space-y-6">
               {linearSkills.map((skill, index) => (
@@ -62,12 +62,12 @@ const SkillsSection = () => {
               ))}
             </div>
 
-            {/* Circular Skills */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+            {/* Circular Skills (Flex Wrap Instead of Grid) */}
+            <div className="flex flex-wrap gap-6 justify-center md:justify-start">
               {circularSkills.map((skill, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center justify-center text-center"
+                  className="flex flex-col items-center justify-center text-center w-[100px]"
                 >
                   <svg className="w-24 h-24">
                     <circle
@@ -91,8 +91,10 @@ const SkillsSection = () => {
                       transform="rotate(-90 48 48)"
                     />
                   </svg>
-                  <p className="text-lg font-bold mt-2">{skill.level}</p>
-                  <p className="text-sm text-gray-300">{skill.name}</p>
+                  <p className="text-lg font-bold mt-2">{skill.level}%</p>
+                  <p className="text-sm text-gray-300 text-center break-words">
+                    {skill.name}
+                  </p>
                 </div>
               ))}
             </div>

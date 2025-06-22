@@ -9,21 +9,21 @@ interface StatItem {
 
 const stats: StatItem[] = [
   { id: 1, label: "Happy Students", value: "10+" },
-  //   { id: 2, label: "Projects Done", value: "100+" },
-  //   { id: 3, label: "Projects Progress", value: "15+" },
   { id: 4, label: "Teaching Hours", value: "1000+" },
 ];
 
 const AboutSection = () => {
   return (
-    <section className="w-full bg-[#0f1115] text-white py-20 px-20">
-      <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12">
+    <section className="w-full bg-[#0f1115] text-white py-20 px-4 md:px-20">
+      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center gap-12">
+        
+
         {/* Stats Section */}
-        <div className="grid grid-cols-2 gap-8 flex-1">
+        <div className="grid grid-cols-2 gap-8 flex-1 justify-items-center">
           {stats.map((stat) => (
             <div
               key={stat.id}
-              className="bg-[#11131a] rounded-full w-40 h-40 flex flex-col justify-center items-center text-center shadow-lg relative"
+              className="bg-[#11131a] rounded-full w-32 h-32 md:w-40 md:h-40 flex flex-col justify-center items-center text-center shadow-lg relative"
             >
               <p className="text-green-400 text-xl font-bold">{stat.value}</p>
               <p className="text-sm font-medium">{stat.label}</p>
@@ -32,8 +32,8 @@ const AboutSection = () => {
         </div>
 
         {/* Text Content */}
-        <div className="flex-1 space-y-4">
-          <p className="uppercase tracking-wider text-sm flex items-center gap-2">
+        <div className="flex-1 space-y-4 text-center lg:text-left">
+          <p className="uppercase tracking-wider text-sm flex items-center justify-center lg:justify-start gap-2">
             <span className="w-10 h-[2px] bg-white" />
             <span className="text-yellow-400 text-base">•</span>
             About Me
@@ -55,15 +55,17 @@ const AboutSection = () => {
             tools to foster growth in every child.
           </p>
 
-          <Button
-            variant="outline"
-            className="border-green-500 text-green-400 hover:bg-green-600 hover:text-white"
-            asChild
-          >
-            <a href="/cv/nidhi-cv.pdf" download>
-              Download CV
-            </a>
-          </Button>
+          <div className="flex justify-center lg:justify-start">
+            <Button
+              variant="outline"
+              className="border-green-500 text-green-400 hover:bg-green-600 hover:text-white"
+              asChild
+            >
+              <a href="/cv/nidhi-cv.pdf" download>
+                Download CV
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </section>

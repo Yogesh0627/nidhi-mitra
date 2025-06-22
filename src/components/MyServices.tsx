@@ -29,8 +29,9 @@ const MyServices = () => {
   ];
 
   return (
-    <section className="bg-[#0f1115] text-white py-20 px-20 w-full">
-      <div className="container mx-auto px-4 text-center space-y-6">
+    <section className="bg-[#0f1115] text-white py-16 px-4 sm:px-8 md:px-20 w-full">
+      <div className="container mx-auto text-center space-y-6">
+        {/* Heading */}
         <p className="uppercase tracking-wider text-sm flex items-center justify-center gap-2">
           <span className="w-10 h-[2px] bg-white" />
           <span className="text-yellow-400 text-base">•</span>
@@ -38,15 +39,15 @@ const MyServices = () => {
         </p>
 
         <h2 className="text-3xl md:text-4xl font-bold text-green-500">
-          What Can I Do Best ?
+          What Can I Do Best?
         </h2>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-[#11131a] p-6 rounded-lg shadow-md hover:shadow-green-600 transition-shadow duration-300"
+              className="bg-[#11131a] p-6 rounded-lg shadow-md hover:shadow-green-600 transition-shadow duration-300 text-center"
             >
               <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 text-2xl bg-green-500 text-black rounded-full">
                 {service.icon}
