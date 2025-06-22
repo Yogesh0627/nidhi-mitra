@@ -9,7 +9,8 @@ import TestimonialSection from "@/components/TestimonialSection";
 export default function Home() {
   return (
   <>
-    <HeroSection
+    <div className="pt-10">
+      <HeroSection
     firstName="Nidhi"
     lastName="Mitra"
     designation="Primary Teacher"
@@ -18,8 +19,11 @@ export default function Home() {
     // title="Teacher"
 
     />
+    </div>
 
-    <AboutSection/>
+    <div className="mt-10">
+      <AboutSection/>
+    </div>
 
     <div className="mt-20">
       <OurBeliefsSection/>

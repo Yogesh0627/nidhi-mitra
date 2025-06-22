@@ -1,98 +1,80 @@
 [
   {
-    "id": "exp-001",
-    "title": "Internship as a Teacher (Primary and Upper Primary)",
-    "organization": "Sarvodaya Kanya Vidyalaya, Moti Nagar",
+    "id": 1,
+    "icon": "🏫",
+    "position": "Internship as a Teacher (Primary and Upper Primary)",
+    "company": "Sarvodya Kanya Vidyalaya, Moti Nagar",
     "duration": "Sep 2022 - Feb 2023",
-    "responsibilities": [
-      {
-        "id": "resp-001",
-        "label": "Prepared lesson plans with activities"
-      },
-      {
-        "id": "resp-002",
-        "label": "Evaluated and gave feedback to students"
-      },
-      {
-        "id": "resp-003",
-        "label": "Maintained attendance records"
-      },
-      {
-        "id": "resp-004",
-        "label": "Ensured safe and respectful classroom environment"
-      },
-      {
-        "id": "resp-005",
-        "label": "Managed student behavior per school guidelines"
-      },
-      {
-        "id": "resp-006",
-        "label": "Measured and reported academic progress"
-      }
+    "highlights": [
+      "Developed comprehensive lesson plans with engaging activities and provided constructive student feedback",
+      "Implemented effective classroom management strategies and maintained meticulous attendance records",
+      "Created a safe, nurturing learning environment that fostered student growth and respect",
+      "Established behavior management systems aligned with school guidelines",
+      "Conducted regular academic assessments and generated detailed progress reports"
+    ],
+    "skills": [
+      "Lesson Planning",
+      "Student Assessment",
+      "Classroom Management",
+      "Behavior Guidance",
+      "Educational Record Keeping"
     ]
   },
   {
-    "id": "exp-002",
-    "title": "Volunteer (Art Instruction)",
-    "organization": "MCD School, Razapur (Vidyanjali)",
+    "id": 2,
+    "icon": "🎨",
+    "position": "Volunteer Art Instructor",
+    "company": "MCD School, Razapur (Vidyanjali Program)",
     "duration": "Aug 2022",
-    "responsibilities": [
-      {
-        "id": "resp-007",
-        "label": "Prepared and arranged art materials"
-      },
-      {
-        "id": "resp-008",
-        "label": "Taught drawing and painting techniques"
-      },
-      {
-        "id": "resp-009",
-        "label": "Instructed in watercolors, oils, pencils, pens, etc."
-      }
+    "highlights": [
+      "Designed and prepared art materials and equipment for diverse classroom activities",
+      "Conducted live demonstrations of drawing, painting, and coloring techniques",
+      "Taught proper use of art tools including brushes, watercolors, and oil paints",
+      "Developed students' creative expression through guided art projects"
+    ],
+    "skills": [
+      "Art Instruction",
+      "Creative Demonstration",
+      "Material Preparation",
+      "Student Engagement"
     ]
   },
   {
-    "id": "exp-003",
-    "title": "Internship as a Teacher (Primary)",
-    "organization": "Bal Bharti Public School",
+    "id": 3,
+    "icon": "💻",
+    "position": "Online Teaching Intern (Primary)",
+    "company": "Bal Bharti Public School",
     "duration": "Feb 2022",
-    "responsibilities": [
-      {
-        "id": "resp-010",
-        "label": "Online teaching"
-      },
-      {
-        "id": "resp-011",
-        "label": "Created lesson plans with activities and PPTs"
-      },
-      {
-        "id": "resp-012",
-        "label": "Classroom management"
-      },
-      {
-        "id": "resp-013",
-        "label": "Maintained attendance records"
-      }
+    "highlights": [
+      "Created interactive digital lesson plans incorporating PowerPoint presentations",
+      "Implemented effective virtual classroom management techniques",
+      "Maintained accurate digital attendance records",
+      "Adapted traditional teaching methods for online delivery"
+    ],
+    "skills": [
+      "Digital Lesson Design",
+      "Virtual Classroom Management",
+      "Educational Technology",
+      "Online Engagement"
     ]
   },
   {
-    "id": "exp-004",
-    "title": "Internship as a Teacher (Primary)",
-    "organization": "MCD School, Punjabi Bagh",
+    "id": 4,
+    "icon": "👩‍🏫",
+    "position": "Teaching Intern (Primary)",
+    "company": "MCD School, Punjabi Bagh",
     "duration": "Jan 2020",
-    "responsibilities": [
-      {
-        "id": "resp-014",
-        "label": "Prepared lesson plans with activities"
-      },
-      {
-        "id": "resp-015",
-        "label": "Classroom management"
-      },
-      {
-        "id": "resp-016",
-        "label": "Maintained attendance records"
-      }
+    "highlights": [
+      "Developed and executed activity-based lesson plans for primary students",
+      "Maintained orderly and productive classroom environments",
+      "Documented student attendance and participation records",
+      "Implemented creative teaching methodologies for young learners"
+    ],
+    "skills": [
+      "Primary Education",
+      "Activity-Based Learning",
+      "Classroom Organization",
+      "Early Childhood Engagement"
     ]
   }
 ]

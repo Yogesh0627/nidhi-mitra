@@ -2,23 +2,26 @@
   {
     "id": "edu-001",
     "institute": "Delhi University",
-    "degree": "Bachelor of Elementary Education (B.EL.ED)",
+    "degree": "Bachelor of Elementary Education (B.El.Ed)",
     "passingYear": 2023,
     "grade": "70%",
-    "status": "Pursuing"
+    "status": "Completed",
+    "icon": "🎓"
   },
   {
     "id": "edu-002",
     "institute": "Guru Nanak Dev Institute of Technology",
     "degree": "Diploma in Electronics and Communication Engineering",
     "passingYear": 2017,
-    "grade": "73.3%"
+    "grade": "73.3%",
+    "icon": "📡"
   },
   {
     "id": "edu-003",
     "institute": "CBSE Board",
     "degree": "SSC (10th)",
     "passingYear": 2014,
-    "grade": "8.6 CGPA"
+    "grade": "8.6 CGPA",
+    "icon": "🏫"
   }
 ]
