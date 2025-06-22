@@ -2,6 +2,7 @@ import AboutSection from "@/components/AboutSection";
 import ContactPromptSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
 import MyServices from "@/components/MyServices";
+import OurBeliefsSection from "@/components/OurBeliefSection";
 import SkillsSection from "@/components/SkillsSection";
 import TestimonialSection from "@/components/TestimonialSection";
 
@@ -19,6 +20,10 @@ export default function Home() {
     />
 
     <AboutSection/>
+
+    <div className="mt-20">
+      <OurBeliefsSection/>
+    </div>
 
     <div className="mt-20">
       <MyServices/>

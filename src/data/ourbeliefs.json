@@ -1,0 +1,212 @@
+[
+  {
+    "id": "belief-001",
+    "quote": "Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.",
+    "author": "Abigail Adams",
+    "type": "learning"
+  },
+  {
+    "id": "belief-002",
+    "quote": "Tell me and I forget, teach me and I may remember, involve me and I learn.",
+    "author": "Benjamin Franklin",
+    "type": "learning"
+  },
+  {
+    "id": "belief-003",
+    "quote": "The beautiful thing about learning is that no one can take it away from you.",
+    "author": "B.B. King",
+    "type": "learning"
+  },
+  {
+    "id": "belief-004",
+    "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "author": "Mahatma Gandhi",
+    "type": "learning"
+  },
+  {
+    "id": "belief-005",
+    "quote": "Change is the end result of all true learning.",
+    "author": "Leo Buscaglia",
+    "type": "learning"
+  },
+  {
+    "id": "belief-006",
+    "quote": "Education is the most powerful weapon which you can use to change the world.",
+    "author": "Nelson Mandela",
+    "type": "education"
+  },
+  {
+    "id": "belief-007",
+    "quote": "The whole purpose of education is to turn mirrors into windows.",
+    "author": "Sydney J. Harris",
+    "type": "education"
+  },
+  {
+    "id": "belief-008",
+    "quote": "Education is not preparation for life; education is life itself.",
+    "author": "John Dewey",
+    "type": "education"
+  },
+  {
+    "id": "belief-009",
+    "quote": "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+    "author": "Aristotle",
+    "type": "education"
+  },
+  {
+    "id": "belief-010",
+    "quote": "The function of education is to teach one to think intensively and to think critically.",
+    "author": "Martin Luther King Jr.",
+    "type": "education"
+  },
+  {
+    "id": "belief-011",
+    "quote": "Every child is an artist. The problem is how to remain an artist once we grow up.",
+    "author": "Pablo Picasso",
+    "type": "students"
+  },
+  {
+    "id": "belief-012",
+    "quote": "Children must be taught how to think, not what to think.",
+    "author": "Margaret Mead",
+    "type": "students"
+  },
+  {
+    "id": "belief-013",
+    "quote": "A child without education is like a bird without wings.",
+    "author": "Tibetan Proverb",
+    "type": "students"
+  },
+  {
+    "id": "belief-014",
+    "quote": "Students don’t care how much you know until they know how much you care.",
+    "author": "John C. Maxwell",
+    "type": "students"
+  },
+  {
+    "id": "belief-015",
+    "quote": "Children are not things to be molded, but are people to be unfolded.",
+    "author": "Jess Lair",
+    "type": "students"
+  },
+  {
+    "id": "belief-016",
+    "quote": "The journey of a thousand miles begins with a single step.",
+    "author": "Lao Tzu",
+    "type": "philosophy"
+  },
+  {
+    "id": "belief-017",
+    "quote": "Wisdom begins in wonder.",
+    "author": "Socrates",
+    "type": "philosophy"
+  },
+  {
+    "id": "belief-018",
+    "quote": "What you think, you become. What you feel, you attract. What you imagine, you create.",
+    "author": "Buddha",
+    "type": "philosophy"
+  },
+  {
+    "id": "belief-019",
+    "quote": "To teach is to touch a life forever.",
+    "author": "Unknown",
+    "type": "philosophy"
+  },
+  {
+    "id": "belief-020",
+    "quote": "The mind is everything. What you think you become.",
+    "author": "Buddha",
+    "type": "philosophy"
+  },
+  {
+    "id": "belief-021",
+    "quote": "Perform your duty with your whole heart and you will succeed – for surely action is better than inaction.",
+    "author": "Lord Krishna",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-022",
+    "quote": "One who has control over the mind is tranquil in heat and cold, in pleasure and pain, and in honor and dishonor.",
+    "author": "Lord Krishna",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-023",
+    "quote": "You have the right to work, but never to the fruit of work.",
+    "author": "Lord Krishna",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-024",
+    "quote": "Strive to still the mind. Attain the goal through devotion and discipline.",
+    "author": "Lord Krishna",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-025",
+    "quote": "Set thy heart upon thy work but never on its reward.",
+    "author": "Lord Krishna",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-026",
+    "quote": "Teaching others what you have learned is the highest form of generosity.",
+    "author": "Lord Buddha",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-027",
+    "quote": "If you light a lamp for someone else, it will also brighten your path.",
+    "author": "Lord Buddha",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-028",
+    "quote": "A disciplined mind leads to happiness. Education begins with self-control.",
+    "author": "Lord Buddha",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-029",
+    "quote": "The root of all learning is mindfulness. Observe, reflect, and then act.",
+    "author": "Lord Buddha",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-030",
+    "quote": "An idea that is developed and put into action is more important than an idea that exists only as an idea.",
+    "author": "Lord Buddha",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-031",
+    "quote": "The mind is everything. What you think you become.",
+    "author": "Lord Buddha",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-032",
+    "quote": "Discipline is the bridge between goals and accomplishment.",
+    "author": "Jim Rohn",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-033",
+    "quote": "Practice makes a man perfect. But spiritual practice makes a soul enlightened.",
+    "author": "Unknown",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-034",
+    "quote": "Educating the mind without educating the heart is no education at all.",
+    "author": "Aristotle",
+    "type": "spiritual"
+  },
+  {
+    "id": "belief-035",
+    "quote": "The best teachers teach from the heart, not from the book.",
+    "author": "Unknown",
+    "type": "spiritual"
+  }
+]
