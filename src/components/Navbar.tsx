@@ -14,7 +14,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Menu, Home, User, Briefcase, X } from "lucide-react";
+import { Menu, Home, User, Briefcase, X, BookOpenText } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -27,6 +27,7 @@ export function Navbar() {
     { label: "Home", href: "/", icon: <Home className="w-4 h-4" /> },
     { label: "About", href: "/about", icon: <User className="w-4 h-4" /> },
     { label: "Work", href: "/work", icon: <Briefcase className="w-4 h-4" /> },
+    { label: "My Recommendations", href: "/my-recommendations", icon: <BookOpenText  className="w-4 h-4" /> },
   ];
 
   return (

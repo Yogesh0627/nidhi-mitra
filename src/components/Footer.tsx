@@ -65,8 +65,8 @@ const Footer = () => {
             <Link href="/work" className="text-sm hover:text-green-400 transition-colors">
               Work Experience
             </Link>
-            <Link href="#contact" className="text-sm hover:text-green-400 transition-colors">
-              Contact
+            <Link href="/my-recommendations" className="text-sm hover:text-green-400 transition-colors">
+              My Recommendations
             </Link>
           </nav>
         </div>
